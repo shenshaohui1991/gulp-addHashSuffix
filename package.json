@@ -1,6 +1,6 @@
 {
   "name": "gulp-addhashsuffix",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A gulp plugin that add a hash suffix for static resources",
   "main": "index.js",
   "scripts": {
@@ -16,9 +16,10 @@
   },
   "author": "ssh",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "crypto": "0.0.3",
     "gulp-util": "^3.0.8",
+    "preprocess": "^3.1.0",
     "through2": "^2.0.3"
   }
 }
